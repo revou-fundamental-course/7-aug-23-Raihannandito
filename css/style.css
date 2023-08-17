@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative;
+    text-align: left;
+}
+
+.luas-form {
+    border-color: #007bff;
+}
+
+.keliling-form {
+    border-color: #28a745;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.triangle-image {
+    width: 220px;
+    transition: transform 0.3s ease;
+}
+
+.triangle-image:hover {
+    transform: scale(1.5); 
+}
+
+label, input, button {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.reset-button {
+    background-color: #ffc107; /* Warna kuning */
+    color: #fff; /* Warna teks putih */
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.reset-button:hover {
+    background-color: #e0a800; /* Warna kuning lebih gelap saat dihover */
+}
